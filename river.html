@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head> 
+    <meta charset="UTF-8">
+    <title>Formulario de Encuesta de Cristian Palacios</title>
+    <link rel="stylesheet" href="river.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1 id="title" class="titulo"> Encuesta sobre River Plate</h1>
+        <p id="description">Por favor, deja tu opinion:</p>
+      </header>
+      <form id="survey-form">
+        <div class="datos">
+          <label id="name-label">Ingresa tu Nombre: </label> <input id="name" name="name" type="text" placeholder= "ej: Cristian" required > </input> 
+          <label id="email-label">Ingresa tu Email: </label> <input id="email" name="email" type="email" placeholder= "ej: Cristian@gmail.com"required> </input>
+          <label id="number-label">Ingresa tu Edad: </label> <input id="number" name="number" type="number" pattern="[0-9]" min="16" max="120" placeholder= "ej: 30"required> </input>
+        </div>
+        <div>
+          <label id="sel">Que afirmacion es correcta para usted: 
+            <select id="dropdown"> 
+              <option value="">(Elija una opcion)</option>
+              <hr> 
+              <option value="1">River es el mas grande del pais</option>
+              <hr> 
+              <option value="2">River es el mas grande del mundo</option>
+              <hr> 
+              <option value="3">River es el mas grande de la galaxia</option>
+              <hr> 
+              <option value="4">River es el mas grande del universo</option>
+            </select>
+          </label>
+        </div>  
+        <div>
+          <h2 class="titulo2" id="siono">¿Tus hijos van a ser de river?</h2>
+          <label><input id="si" type="radio" name="si-no" value="si" checked> Si</label>
+          <label><input id="obviamente" type="radio" name="si-no" value="obviamente"> Obviamente</label>
+        </div>
+        <div>
+          <h2 class="titulo2">¿a que equipo queres ver que le gane River en el 2024?</h2>
+          <label for="Boca"> <input class="boca" id="Boca" type="checkbox" name="Boca" value="Boca" checked> Boca</label>
+          <label for="Velez"> <input class="velez"id="velez" type="checkbox" name="Velez" value="Velez"> Velez</label>
+          <label for="San-Lorenzo"> <input class="san-lorenzo" id="San-Lorenzo" type="checkbox" name="San-Lorenzo" value="San Lorenzo"> San Lorenzo</label>
+          <label for="Racing"> <input class="racing" id="Racing" type="checkbox" name="Racing#" value="Racing"> Racing</label>
+          <label for="Estudiantes"><input class="estudiantes" id="Estudiantes" type="checkbox" name="Estudiantes" value="Estudiantes"> Estudiantes</label>
+          <label for="Independiente"><input class="independiente" id="Independiente" type="checkbox" name="Independiente" value="Independiente"> Independiente</label>
+        </div>  
+        <div>
+          <label for="bio">
+            <h3 id="ult">Describi tu pasion por River:</h3>
+            <textarea id="bio" name="bio" rows="3" cols="30" placeholder= "Sangre roja, Huesos blancos y Piel de gallina... "></textarea>
+          </label>
+          <input id="enviar" type="submit" value="ENVIAR" />
+        </div>
+      </form>
+    </div>
+  </body>
+  </body>
+
+  
