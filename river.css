@@ -75,15 +75,22 @@ label {
 }
 #name, #email, #number, #sel, #dropdown {
 margin-top: 0.5rem;
+font-weight: bold;
+
 }
 
+#dropdown{
+height: 35px;
+}
 
 #bio{
     height: 100px;
 }
 
 #name-label, #email-label, #number-label, #sel {
-    font-size:25px
+    font-size:25px;
+    font-weight: bold;
+    
 
 }
 
@@ -96,7 +103,7 @@ margin-top: 5px;
 background-color: red;
 font-size: 20px;
 font-weight: 700;
-cursor: pointer;
+cursor:pointer;
 width:100px; 
 height:30px;
 border-radius:15px;
