@@ -9,7 +9,7 @@ header{
     display: block;
 }
 
-#title{
+#title, .titulo3{
     text-align:center;
 }
 
@@ -53,7 +53,11 @@ form {
 label {
     display: block;
     margin-top: 1rem;
+    
 }
+input[type="radio"] {
+    margin-right: 0.5em;
+  }
 
 /*label:h3{
     font-size: 20px;
@@ -99,14 +103,17 @@ height: 35px;
 }
 
 #enviar{
-margin-top: 5px;
+
+margin-top: 20px;
+margin-left:40%;
 background-color: red;
 font-size: 20px;
 font-weight: 700;
 cursor:pointer;
 width:100px; 
-height:30px;
+height:35px;
 border-radius:15px;
+
 
 }
 .boca, .velez, .san-lorenzo, .racing, .estudiantes, .independiente{
@@ -114,10 +121,16 @@ border-radius:15px;
     transform: scale(1.5);
 }
 
-#si, #obviamente{
+#si, #obviamente,#Por-supuesto, #sin-duda{
     accent-color: rgb(176, 2, 2);
     transform: scale(2);
     margin-bottom: 1rem;
+}
+
+span{
+    float: right;
+    margin-top: -5em;
+    margin-right: 2em;
 }
 
 /*
