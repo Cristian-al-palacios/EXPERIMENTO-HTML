@@ -104,18 +104,27 @@ height: 35px;
 
 #enviar{
 
-margin-top: 20px;
-margin-left:40%;
-background-color: red;
-font-size: 20px;
-font-weight: 700;
-cursor:pointer;
-width:100px; 
-height:35px;
-border-radius:15px;
-
-
+    background-image:url("https://i.ibb.co/GtXjmkr/000-river-plate.gif");
+    background-repeat:no-repeat;
+    height:80px;
+    width:90px;
+    background-size: 70px 60px;
+    background-position:center;
+    border-radius:20px;
+    margin-left:40%;
+    margin-top: 20px;
+    background-color:white;
+    
 }
+
+
+/*
+input[type="submit"]{
+color:rewhited;
+font-weight: bold;
+padding-top: 45px;
+}*/
+
 .boca, .velez, .san-lorenzo, .racing, .estudiantes, .independiente{
     accent-color:rgb(0, 0, 0);
     transform: scale(1.5);
@@ -133,6 +142,11 @@ span{
     margin-right: 2em;
 }
 
+/*img{
+    background-size: 50px 50px;
+    height:60px;
+    width:70px;
+}*/
 /*
 title {
     font-size: 30px;
