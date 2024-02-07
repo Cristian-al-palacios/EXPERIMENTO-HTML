@@ -1,12 +1,24 @@
+body{
+    background-color: blue;
+}
 
+.inicio{
+    background-color: green;
+}
+
+#logo {
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+}
 
 h1{
     text-align: center;
 }
 
 .slide{
-    width: 100%;
-    height: auto;
+    width: 480px;
+    height: 380px;
     margin: 50px auto 0;
     overflow: hidden;
     animation: slide 16s infinite alternate ease-in-out;
@@ -39,4 +51,9 @@ h1{
 
     75% {margin-left: -300%;}
     95% {margin-left: -300%;}
+}
+
+
+.final{
+    background-color: aqua;
 }
