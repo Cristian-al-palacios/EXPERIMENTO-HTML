@@ -1,5 +1,14 @@
 body{
     background-color: blue;
+    font-family: Helvetica;
+    margin: 0;
+}
+header{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+
 }
 
 .inicio{
@@ -11,10 +20,28 @@ body{
     width: 100px;
     height: 40px;
 }
+#whats{
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    
+}
+#face{
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+}
+#insta{
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+}
+
 
 h1{
     text-align: center;
-}
+font-size: 8rem;
+margin-bottom: -1rem;}
 
 .slide{
     width: 480px;
@@ -52,7 +79,22 @@ h1{
     75% {margin-left: -300%;}
     95% {margin-left: -300%;}
 }
+.proddest{
+    border-top: 10px solid ;
+    border-bottom: 10px solid;
+    width: 80%;
+    margin: auto;
+}
 
+.adi{
+    border-bottom: 10px solid;
+    width: 80%;
+    margin: auto;
+    
+
+}
+
+}
 
 .final{
     background-color: aqua;
